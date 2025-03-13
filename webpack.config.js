@@ -4,10 +4,10 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-    entry: "./src/index.js",  // Ensure this matches your actual JS entry file
+    entry: "/index.js",  
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js"  // ✅ Make sure Webpack generates a JS file here
+        filename: "bundle.js"  
     },
     mode: "development",
     devServer: {
@@ -20,7 +20,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
+            template: "index.html",
             filename: "index.html"
         }),
         new CopyWebpackPlugin({
@@ -29,11 +29,11 @@ module.exports = {
                 
                 { from: "service-worker.js", to: "service-worker.js" },
                 { from: "manifest.json", to: "manifest.json" },
-                { from: "src/styles.css", to: "styles.css" },
-                { from: "src/db.js", to: "db.js" },
-                { from: "src/icons", to: "icons" },
-                { from: "src/screenshots", to: "screenshots" },
-                { from: "src/404.html", to: "404.html" },
+                { from: "styles.css", to: "styles.css" },
+                { from: "db.js", to: "db.js" },
+                { from: "icons", to: "icons" },
+                { from: "screenshots", to: "screenshots" },
+                { from: "404.html", to: "404.html" },
                 { from: "favicon.ico", to: "favicon.ico" }
 
             ]

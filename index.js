@@ -1,4 +1,4 @@
-import "./styles.css";
+
 
 const BASE_URL = 'https://story-api.dicoding.dev/v1';
 const DEFAULT_MAP_CENTER = [-6.2088, 106.8456]; 
@@ -884,7 +884,7 @@ const StoryPresenter = {
   
   if ('serviceWorker' in navigator) {
 
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('./service-worker.js')
     .then(registration => {
         console.log('Service Worker registered with scope:', registration.scope);
     })
