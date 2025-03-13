@@ -31,13 +31,13 @@ module.exports = {
                 { from: "manifest.json", to: "manifest.json" },
                 { from: "styles.css", to: "styles.css" },
                 { from: "db.js", to: "db.js" },
-                { from: "icon-512x512.png", to: "icon-512x512.png" },
-                { from: "icon-192x192.png", to: "icon-192x192.png" },
+                { from: "icon512x512.png", to: "icon512x512.png" },
+                { from: "icon192x192.png", to: "icon192x192.png" },
                 { from: "desktop.png", to: "desktop.png" },
                 { from: "mobile.png", to: "mobile.png" },
                 { from: "add-icon.png", to: "add-icon.png" },
                 { from: "404.html", to: "404.html" },
-                { from: "favicon.ico", to: "favicon.ico" }
+                { from: "favicon1.ico", to: "favicon1.ico" }
 
             ]
         })
