@@ -2,7 +2,7 @@
     "name": "Narsis",
     "short_name": "Narsis",
     "description": "narsis - Share your stories with the world",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#5D8BF4",
@@ -39,7 +39,7 @@
         "short_name": "Add",
         "description": "Quickly add a new story",
         "url": "#/add-story",
-        "icons": [{ "src": "/icons/add-icon.png", "sizes": "96x96", "type": "image/png" }]
+        "icons": [{ "src": "icons/add-icon.png", "sizes": "96x96", "type": "image/png" }]
       }
     ]
     
