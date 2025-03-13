@@ -54,9 +54,9 @@ self.addEventListener('install', (event) => {
   importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
 workbox.precaching.precacheAndRoute([
-  { url: '/src/index.html', revision: '1' },
-  { url: '/src/styles.css', revision: '1' },
-  { url: '/src/index.js', revision: '1' },
+  { url: 'index.html', revision: '1' },
+  { url: 'styles.css', revision: '1' },
+  { url: 'index.js', revision: '1' },
   { url: 'manifest.json', revision: '1' }
 ]);
 
