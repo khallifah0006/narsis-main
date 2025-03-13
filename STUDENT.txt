@@ -1,6 +1,6 @@
 url:
 
-https://khallifah0006.github.io/narsisss/
+https://khallifah0006.github.io/narsislagi/
 
 
 fitur push notifikasi nya bisa saat di jalankan di web npm run start-dev
