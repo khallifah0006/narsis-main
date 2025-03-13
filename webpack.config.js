@@ -31,7 +31,6 @@ module.exports = {
                 { from: "manifest.json", to: "manifest.json" },
                 { from: "styles.css", to: "styles.css" },
                 { from: "db.js", to: "db.js" },
-                { from: "icons", to: "icons" },
                 { from: "icon-512x512.png", to: "icon-512x512.png" },
                 { from: "icon-192x192.png", to: "icon-192x192.png" },
                 { from: "desktop.png", to: "desktop.png" },
